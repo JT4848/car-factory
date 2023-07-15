@@ -28,10 +28,10 @@ class ElectricCar extends Car{
 // Create an instance of ElectricCar with the make "Tesla", model "Model S", year 2019, and range 300, and the getDescription method is 
 //called on the instance. The output will be a string containing the make, model, year, and range of the electric car.
 
-const car1 = new Car(`Jeep`, `Trackhawk`, 2018);
+const car1 = new Car(`Jeep`, `Trackhawk`, `2018`);
 console.log(car1.getDescription());
 
-const elecCar = new ElectricCar(`Tesla`, `Model S`, 2019);
+const elecCar = new ElectricCar(`Tesla`, `Model S`, `2019`);
 console.log(elecCar.getDescription());
 
 
